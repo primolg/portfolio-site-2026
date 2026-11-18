@@ -1,0 +1,200 @@
+  #app{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    max-height: 100vh !important;
+    width: 100vw;
+    overflow:hidden;
+  }
+
+  .main{
+    position: absolute;
+    margin-top: 55px;
+    padding-top: 3vh;
+    display: flex;
+    width: 96vw;
+    height:80vh;
+    overflow: visible;
+    transition: .6s cubic-bezier(1, 0, 0.3, 1);
+  }
+
+  .mainLower{
+    position: absolute;
+    margin-top: 145px;
+    padding-top: 3vh;
+    display: flex;
+    width: 96vw;
+    height:80vh;
+    max-height: 80vh;
+    transition: .6s cubic-bezier(1, 0.2, 0.5, 1);
+  }
+
+  #catButtons{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+    height: 100%;
+    min-width: 20px;
+    overflow: scroll;
+    align-items: center;
+    padding-top: 4vh;
+    --mask: linear-gradient(to bottom, 
+      rgba(0,0,0, 1) 93%,   rgba(0,0,0, 1) 0, 
+      rgba(0,0,0, 0) 100%, rgba(0,0,0, 0) 0
+    ) 100% 50% / 100% 100% repeat-x;
+    -webkit-mask: var(--mask); 
+    mask: var(--mask);
+    transition: .6s cubic-bezier(1, 0.2, 0.5, 1);
+  }
+
+  #catButtons::-webkit-scrollbar{
+    display: none;
+  }
+
+  .mainLower #catButtons{
+    height: 80%;
+    transition: .6s cubic-bezier(1, 0, 0.3, 1);
+  }
+
+  .catButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 17vh;
+    font-size: medium;
+  }
+  
+  .catButton:hover{
+    cursor: pointer;
+  }
+
+  .main #lastCatBtn{
+    padding-bottom: 0;
+    transition: padding-bottom .6s cubic-bezier(1, 0, 0.3, 1);
+  }
+
+  .mainLower #lastCatBtn{
+    padding-bottom: 75px;
+    transition: padding-bottom .6s cubic-bezier(1, 0.2, 0.5, 1);
+  }
+
+  .catButton img{
+    max-height: 60%;
+    max-width: 40%;
+  }
+
+  .catSeperator{
+    min-height: 4px;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+  }
+
+  #selectedSeperator{
+    background-color: #797979;
+  }
+  
+  #textBox{
+    width: 88%;
+    height: 100%;
+  }
+  
+  #leftRightBtns{
+    height: min-content;
+    width: 70%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -7vh;
+    transition: margin-top .6s cubic-bezier(1, 0, 0.3, 1);
+  }
+
+  .mainLower #leftRightBtns{
+    margin-top: -20vh;
+    transition: margin-top .6s cubic-bezier(1, 0.2, 0.5, 1);
+  }
+
+  #leftRightBtns h1{
+    margin-left: 20%;
+  }
+
+  #textBox::-webkit-scrollbar{
+    display: none;
+  }
+
+  @media only screen and (max-width: 600px){
+    .main{
+      position: fixed;
+      flex-direction: column;
+      margin-top: 55px;
+      width: 95vw;
+      height: 84vh;
+    }
+    .mainLower{
+      position: fixed;
+      flex-direction: column;
+      margin-top: 55px;
+      width: 95vw;
+      height: 84vh;
+      overflow: visible;
+      max-height: none;
+    }
+
+    .mainLower #lastCatBtn{
+      padding-bottom: 0;
+    }
+
+    #catButtons{
+      width: 100%;
+      min-height: 12%;
+      max-height: 10vh;
+      flex-direction: row;
+      border-right: 0;
+      -webkit-mask: none; 
+      mask: none;
+      overflow-y: hidden;
+    }
+
+    #selected{
+      opacity: 1;
+    }
+
+    .catButton{
+      width: auto;
+      min-width: 22%;
+      height: 100%;
+      flex-direction: row;
+      border-bottom: 0;
+      opacity: 0.5;
+    }
+    .catButton img{
+      max-width: 50%;
+      max-height: 60%;
+    }
+    .catSeperator{
+      height: 30%;
+      min-width: 3px;
+      max-width: 3px;
+    }
+  
+    #selectedSeperator{
+      background-color: #d3d3d3;
+    }
+
+    #textBox{
+      width: 100%;
+      height: 100%;
+      overflow: scroll;
+    }
+    #leftRightBtns{
+      display: none;
+    }
+
+  }

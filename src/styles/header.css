@@ -1,0 +1,134 @@
+#header{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    overflow: hidden !important;
+    box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.17);
+}
+
+.closedMenu{
+    height:85px;
+    transition: height .5s cubic-bezier(1, 0, 0.5, 1);
+}
+
+.openMenu{
+    height:145px;
+    transition: height .5s cubic-bezier(1, 0, 0.5, 1);
+}
+
+.openMenuCart{
+    height:195px;
+    transition: height .6s cubic-bezier(1, 0, 0.5, 1);
+}
+
+#headerTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#headerTop img{
+    margin: 15px;
+    margin-left: 65px;
+    height: 55px;
+    /* filter: hue-rotate(n240deg); */
+}
+    
+#logoBrowse{
+    display: flex;
+}
+
+#headerTop h5{
+    position: fixed;
+    font-weight: 400;
+    right: 15px;
+    top: 0px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.closedMenu #headerTop h5{
+    right: 26px;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.openMenu #headerTop h5{
+    right: 26px;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#headerTop h2{
+    font-weight: 300;
+    margin: 25px 35px;
+    cursor: pointer;
+}
+
+#logoBrowse h2{
+    margin: 30px 0px;
+    cursor: pointer;
+}
+
+#dropDown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    overflow: hidden;
+}
+
+#catList{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    width: 22%;
+    margin-left:55px;
+    margin-top:-1em;
+}
+
+#catList h3{
+    font-weight: 200;
+    cursor: pointer;
+    height: min-content;
+}
+#catList h3:hover{
+    text-decoration: underline;
+}
+
+#dropDown h1{
+    margin-right: 31px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+
+
+    #dropDown{
+        flex-direction: column;
+        height: fit-content;
+        padding-top:0rem;
+        background-color: white;
+        border-top: none;
+    }
+
+    #dropDown h1{
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    #catList{
+        width: 80%;
+        margin-left:10%;
+    }
+    #catButtons {
+        padding-top: 3vh;
+    }
+
+    #headerTop img{
+        margin-left: 15px;
+    }
+}
