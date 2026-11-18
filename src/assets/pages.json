@@ -2,56 +2,56 @@
     "paintings": [
         {
             "title": "\"Tattoo 1\"",
-            "imageRef": "/media/tattoo1.png",
+            "imageRef": "/media/TattooOne.png",
             "backdrop": true,
             "text1": "11/2026",
             "text2": "16\" x 20\" Acrylic on canvas"
         },
         {
             "title": "\"Two Deer in a Burning Room\"",
-            "imageRef": "/media/twodeer.png",
+            "imageRef": "/media/TwoDeer.png",
             "backdrop": false,
             "text1": "11/2026",
             "text2": "Multi-media collage"
         },
         {
             "title": "\"Something so Complete 2\"",
-            "imageRef": "/media/article.png",
+            "imageRef": "/media/Article.png",
             "backdrop": false,
             "text1": "10/2026",
             "text2": "Multi-media collage"
         },
         {
             "title": "A Parade is...",
-            "imageRef": "/media/aparade.png",
+            "imageRef": "/media/AParade.png",
             "backdrop": true,
             "text1": "3/2026",
             "text2": "15\" x 24\" Acrylic on MDF Board"
         },
         {
             "title": "\"Collar 3\"",
-            "imageRef": "/media/collar.png",
+            "imageRef": "/media/Collar.png",
             "backdrop": true,
             "text1": "5/2026",
             "text2": "24\" x 6\" Acrylic on MDF Board"
         },
         {
             "title": "\"E is for Empty\"",
-            "imageRef": "/media/empty.png",
+            "imageRef": "/media/Empty.png",
             "backdrop": true,
             "text1": "5/2026",
             "text2": "Digital Painting"
         },
         {
             "title": "South Carolina 2",
-            "imageRef": "/media/dogs.png",
+            "imageRef": "/media/Dogs.png",
             "backdrop": true,
             "text1": "2/2026",
             "text2": "12\" x 15\" Acrylic on MDF Board"
         },
         {
             "title": "South Carolina 3",
-            "imageRef": "/media/highway.png",
+            "imageRef": "/media/Highway.png",
             "backdrop": true,
             "last": true,
             "text1": "2/2026",
@@ -61,14 +61,14 @@
     "digital": [
         {
             "title": "Exhibition 6/13",
-            "imageRef": "/media/exhibition.png",
+            "imageRef": "/media/Exhibition.png",
             "backdrop": false,
             "text1": "6/13/2026",
             "text2": "Transformed an apartment into a functional art gallery to display a solo exhibition of my own work, creating and distributing promotional materials, as well as guided visitor maps, leading to a turnout of 50+ guests."
         },
         {
             "title": "NS Meetup",
-            "imageRef": "/media/nsmeetup.png",
+            "imageRef": "/media/NSMeetup.png",
             "backdrop": false,
             "last": true,
             "text1": "2023",
