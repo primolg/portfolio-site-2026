@@ -4,7 +4,7 @@ import Header from "./components/header/Header";
 import { useState } from "react";
 
 function App() {
-  const [cat, setCat] = useState('about')
+  const [cat, setCat] = useState('paintings')
   const [dropDown, setDropDown] = useState(false);
   const [dropDownCat, setDropDownCat] = useState('browse');
 
