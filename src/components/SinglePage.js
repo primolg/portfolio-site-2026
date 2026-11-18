@@ -1,7 +1,7 @@
 import './../styles/singlePage.css'
 
 function SinglePage({page}) {
-  
+  console.log(page.imageRef)
   return(
     <div id='currentPage'>
       <div id="leftSide">
