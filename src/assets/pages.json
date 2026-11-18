@@ -9,7 +9,7 @@
         },
         {
             "title": "\"Two Deer in a Burning Room\"",
-            "imageRef": "/media/twoDeer.png",
+            "imageRef": "/media/twodeer.png",
             "backdrop": false,
             "text1": "11/2026",
             "text2": "Multi-media collage"
@@ -23,7 +23,7 @@
         },
         {
             "title": "A Parade is...",
-            "imageRef": "/media/aParade.png",
+            "imageRef": "/media/aparade.png",
             "backdrop": true,
             "text1": "3/2026",
             "text2": "15\" x 24\" Acrylic on MDF Board"
@@ -37,7 +37,7 @@
         },
         {
             "title": "\"E is for Empty\"",
-            "imageRef": "/media/Empty.png",
+            "imageRef": "/media/empty.png",
             "backdrop": true,
             "text1": "5/2026",
             "text2": "Digital Painting"
@@ -61,14 +61,14 @@
     "digital": [
         {
             "title": "Exhibition 6/13",
-            "imageRef": "/media/Exhibition.png",
+            "imageRef": "/media/exhibition.png",
             "backdrop": false,
             "text1": "6/13/2026",
             "text2": "Transformed an apartment into a functional art gallery to display a solo exhibition of my own work, creating and distributing promotional materials, as well as guided visitor maps, leading to a turnout of 50+ guests."
         },
         {
             "title": "NS Meetup",
-            "imageRef": "/media/NSMeetup.png",
+            "imageRef": "/media/nsmeetup.png",
             "backdrop": false,
             "last": true,
             "text1": "2023",
