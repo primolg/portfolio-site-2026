@@ -32,7 +32,7 @@ function Header({setCat, dropDown, setDropDown, dropDownCat, setDropDownCat}) {
     <div id="header" className={dropDown ? "openMenu" : "closedMenu"}>
       <div id="headerTop">
         <div id="logoBrowse">
-          <img src="/media/other/signature.png" alt="fakelogo"/>
+          <img src="/media/signature.png" alt="fakelogo"/>
           {dropDown && dropDownCat === 'browse'? <h2 onClick={()=>setDropDown(false)}><IoMdClose/></h2> : <h2 onClick={()=>{menuToggle('browse')}}><BiMenu /></h2>}
         </div>
       </div>

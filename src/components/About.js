@@ -4,7 +4,7 @@ function About() {
 
   return(
     <div id="about">
-      <img id="portrait" src="/media/other/portrait2.jpg" alt="portrait"/>
+      <img id="portrait" src="/media/portrait2.jpg" alt="portrait"/>
       <div id="aboutText">
         <div>
           <h1>About</h1>
